@@ -1,0 +1,80 @@
+/*
+Theme Name: AEOVITA
+Theme URI: https://aeovita.com
+Author: AEOVITA Labs
+Author URI: https://aeovita.com
+Description: Premium longevity peptide brand theme with WooCommerce support. Science-backed. Biohacker-approved.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 8.0
+License: Proprietary
+License URI: https://aeovita.com/license
+Text Domain: aeovita
+Tags: e-commerce, woocommerce, dark, science, biohacking, longevity, peptides, health
+*/
+
+/* ============================================
+   AEOVITA BRAND: CSS CUSTOM PROPERTIES
+   ============================================ */
+:root {
+  /* Brand Colors */
+  --color-navy:       #0A0E1A;
+  --color-navy-mid:   #111827;
+  --color-navy-light: #1a2235;
+  --color-navy-card:  #151c2c;
+  --color-teal:       #00D4C8;
+  --color-teal-dark:  #00A89E;
+  --color-cobalt:     #2D5BE3;
+  --color-gold:       #C9A84C;
+  --color-gold-light: #E0C06A;
+  --color-white:      #F5F7FA;
+  --color-silver:     #8B9BAD;
+  --color-silver-dim: #5a6a7e;
+  --color-border:     rgba(0, 212, 200, 0.15);
+  --color-error:      #E05555;
+  --color-success:    #22C55E;
+
+  /* Gradients */
+  --gradient-teal:    linear-gradient(135deg, #00D4C8 0%, #2D5BE3 100%);
+  --gradient-gold:    linear-gradient(135deg, #C9A84C 0%, #E0C06A 100%);
+  --gradient-dark:    linear-gradient(180deg, #0A0E1A 0%, #111827 100%);
+  --gradient-hero:    linear-gradient(135deg, #0A0E1A 0%, #0d1525 50%, #0f1a30 100%);
+  --gradient-card:    linear-gradient(145deg, #151c2c 0%, #111827 100%);
+
+  /* Typography */
+  --font-display:     'Space Grotesk', 'Neue Haas Grotesk', -apple-system, sans-serif;
+  --font-body:        'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:        'JetBrains Mono', 'IBM Plex Mono', 'Fira Code', monospace;
+  --font-serif:       'EB Garamond', 'Georgia', serif;
+
+  /* Spacing */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* Sizing */
+  --container-max: 1280px;
+  --container-narrow: 900px;
+  --border-radius: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 24px;
+  --border-radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-card:   0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-glow:   0 0 40px rgba(0, 212, 200, 0.15);
+  --shadow-gold:   0 0 30px rgba(201, 168, 76, 0.2);
+  --shadow-button: 0 4px 20px rgba(0, 212, 200, 0.35);
+
+  /* Transitions */
+  --transition-fast:   150ms ease;
+  --transition-base:   250ms ease;
+  --transition-slow:   400ms ease;
+}

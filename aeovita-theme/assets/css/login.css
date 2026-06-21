@@ -1,0 +1,56 @@
+/* AEOVITA Custom Login Page */
+body.login { background: #0A0E1A; font-family: 'Inter', sans-serif; }
+.login h1 a {
+  background-image: none;
+  background-color: transparent;
+  color: #00D4C8;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  width: auto;
+  height: auto;
+  text-indent: 0;
+  text-decoration: none;
+}
+.login h1 a::before { content: '∞ '; color: #00D4C8; }
+#loginform, .login form {
+  background: #151c2c;
+  border: 1px solid rgba(0, 212, 200, 0.15);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+}
+.login label { color: #8B9BAD; font-size: 0.85rem; }
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="email"] {
+  background: #0A0E1A !important;
+  border: 1px solid rgba(0, 212, 200, 0.15) !important;
+  border-radius: 8px !important;
+  color: #F5F7FA !important;
+  padding: 0.75rem 1rem !important;
+  font-family: 'Inter', sans-serif !important;
+  transition: border-color 0.2s;
+}
+.login input[type="text"]:focus,
+.login input[type="password"]:focus { border-color: #00D4C8 !important; outline: none; }
+.login .button-primary {
+  background: linear-gradient(135deg, #00D4C8 0%, #2D5BE3 100%) !important;
+  border: none !important;
+  border-radius: 9999px !important;
+  color: #0A0E1A !important;
+  font-weight: 700 !important;
+  padding: 0.875rem 2rem !important;
+  font-family: 'Space Grotesk', sans-serif !important;
+  letter-spacing: 0.02em !important;
+  box-shadow: 0 4px 20px rgba(0, 212, 200, 0.35) !important;
+  cursor: pointer !important;
+  transition: transform 0.2s !important;
+  width: 100% !important;
+  font-size: 1rem !important;
+}
+.login .button-primary:hover { transform: translateY(-2px) !important; }
+.login #nav a, .login #backtoblog a { color: #8B9BAD; transition: color 0.15s; }
+.login #nav a:hover, .login #backtoblog a:hover { color: #00D4C8; }
